@@ -2,8 +2,8 @@
 Run sick LLM apps hyper fast on your local machine for funzies. 
 
 ## See it live and in action 📺
-<!-- <img src="https://i.imgur.com/FaQH8rz.png"/> -->
-<insert fancy thumbnail here> 
+<a href=""><img src="https://i.imgur.com/jvTcxvV.png"/></a>
+
 
 # Startup 🚀
 1. Git clone https://github.com/ggerganov/llama.cpp 
@@ -29,21 +29,15 @@ Run sick LLM apps hyper fast on your local machine for funzies.
 - Multiple Model Load with Config</br>
 `python -m --config_file config.json`
 - Multi Modal Models</br>
-`python -m llama_cpp.server --model models/llava-v1.5-7b-Q4_K.gguf --clip_model_path models/llava-v1.5-7b-mmproj-Q4_0.gguf --n_gpu -1 --chat llava-1-5`
+`python -m llama_cpp.server --model models/llava-v1.5-7b-Q4_K.gguf --clip_model_path models/llava-v1.5-7b-mmproj-Q4_0.gguf --n_gpu -1 --chat llava-1-5` </br>
 
-</br>
 # Models Used 🤖
-Mistral: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF
-Mixtral: https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
-LLaVa: https://huggingface.co/jartine/llava-v1.5-7B-GGUF/tree/main
+- Mistral: https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF
+- Mixtral: https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+- LLaVa: https://huggingface.co/jartine/llava-v1.5-7B-GGUF/tree/main
 
 # Who, When, Why?
 
 👨🏾‍💻 Author: Nick Renotte <br />
 📅 Version: 1.x<br />
 📜 License: This project is licensed under the MIT License </br>
-
-
-
-
-
