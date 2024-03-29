@@ -21,13 +21,13 @@ Run sick LLM apps hyper fast on your local machine for funzies.
 3. pip install openai 'llama-cpp-python[server]' pydantic instructor streamlit
 4. Start the server: 
 - Single Model Chat </br>
-`python -m --model models/mistral-7b-instruct-v0.1.Q4_0.gguf `
+`python -m llama_cpp.server --model models/mistral-7b-instruct-v0.1.Q4_0.gguf `
 - Single Model Chat with GPU Offload</br>
-`python -m --model models/mistral-7b-instruct-v0.1.Q4_0.gguf --n_gpu -1` 
+`python -m llama_cpp.server --model models/mistral-7b-instruct-v0.1.Q4_0.gguf --n_gpu -1` 
 - Single Model Function Calling with GPU Offload</br>
-`python -m --model models/mistral-7b-instruct-v0.1.- Q4_0.gguf --n_gpu -1 --chat functionary` 
+`python -m llama_cpp.server --model models/mistral-7b-instruct-v0.1.- Q4_0.gguf --n_gpu -1 --chat functionary` 
 - Multiple Model Load with Config</br>
-`python -m --config_file config.json`
+`python -m llama_cpp.server --config_file config.json`
 - Multi Modal Models</br>
 `python -m llama_cpp.server --model models/llava-v1.5-7b-Q4_K.gguf --clip_model_path models/llava-v1.5-7b-mmproj-Q4_0.gguf --n_gpu -1 --chat llava-1-5` </br>
 
